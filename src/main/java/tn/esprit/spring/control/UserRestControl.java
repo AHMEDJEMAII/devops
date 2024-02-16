@@ -11,7 +11,7 @@ import tn.esprit.spring.services.IUserService;
 
 // userRestControl
 @RestController // = @Controller + @ResponseBody 
-@RequestMapping("/user")
+@RequestMapping("/usersController")
 public class UserRestControl {
 
 	@Autowired 
