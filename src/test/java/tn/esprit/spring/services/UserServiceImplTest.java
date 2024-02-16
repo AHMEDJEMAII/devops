@@ -8,3 +8,21 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 @TestMethodOrder(OrderAnnotation.class)
 class UserServiceImplTest {}
+
+
+
+@SpringBootTest
+@TestMethodOrder(OrderAnnotation.class)
+class UserServiceImplTest {}
+
+
+
+@SpringBootTest
+@TestMethodOrder(OrderAnnotation.class)
+class UserServiceImplTest {}
+
+
+
+@SpringBootTest
+@TestMethodOrder(OrderAnnotation.class)
+class UserServiceImplTest {}
