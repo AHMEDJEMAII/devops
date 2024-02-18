@@ -64,6 +64,11 @@
                 <artifactId>maven-resources-plugin</artifactId>
                 <version>3.1.0</version> <!-- Update to version 3.1.0 -->
             </plugin>
+	    <plugin>
+           	 <groupId>org.sonarsource.scanner.maven</groupId>
+           	 <artifactId>sonar-maven-plugin</artifactId>
+            	<version>7.9.0.33305</version> <!-- Updated version to 7.9 LTS -->
+            </plugin>
         </plugins>
     </build>
 
