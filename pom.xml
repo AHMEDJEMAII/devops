@@ -42,11 +42,11 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-	<dependency>
-    	    <groupId>org.sonarsource.sonarqube</groupId>
+        <dependency>
+            <groupId>org.sonarsource.sonarqube</groupId>
             <artifactId>sonar-plugin-api</artifactId>
             <version>7.8</version>
-	</dependency>
+        </dependency>
     </dependencies>
 
     <!-- Deploy to Nexus -->
@@ -69,18 +69,6 @@
                 <artifactId>maven-resources-plugin</artifactId>
                 <version>3.1.0</version> <!-- Update to version 3.1.0 -->
             </plugin>
-	    <plugin>
-            <groupId>org.sonarsource.scanner.maven</groupId>
-            <artifactId>sonar-maven-plugin</artifactId>
-            <version>3.0.2.2155</version>
-            <dependencies>
-                <dependency>
-                    <groupId>org.sonarsource.scanner.maven</groupId>
-                    <artifactId>sonar-maven-plugin</artifactId>
-                    <version>3.0.2.2155</version>
-                </dependency>
-            </dependencies>
-        </plugin>
         </plugins>
     </build>
 
